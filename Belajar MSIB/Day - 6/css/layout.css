@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.head{
+    background-image: url(../images/gamer.png);
+    background-color: #EC4899;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    padding: 290px;
+    text-align: center;
+}
+
+.topnavbar{
+    overflow: hidden;
+    background-color: #3C091D;
+}
+
+.topnavbar a{
+    display: inline-block;
+    padding: 9px 25px;
+    color: #3C091D;
+    text-decoration: none;
+    background-color: #E8BAD3;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.topnavbar a:hover{
+    background-color: #E8BAD3;
+    color: #FFFFFF;
+}
+
+.content{
+    float: left;
+    padding: 10px;
+}
+
+.content.side{
+    width: 25%;
+}
+
+.content.main{
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .content.side, .content.main{
+        width: 100%;
+    }
+}
+
+.sidebar{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    padding-left: 1em;
+}
+
+ul{
+    list-style-type: none;
+    float: left;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.fixed-footer {
+    width: 100%;
+    position: relative;
+    background: #3C091D;
+    margin: 0 10px 10px 0;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.fixed-footer {
+    bottom: 0;
+}

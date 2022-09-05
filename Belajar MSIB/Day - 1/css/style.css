@@ -1,0 +1,25 @@
+p{
+    color: lightsalmon;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+body{
+    background-color: blanchedalmond;
+    background-image: url(../images/5400421.webp);
+    margin:0cm 3cm;
+    background-attachment:fixed;
+}
+
+li{
+    color: lightsalmon;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+marquee{
+    color: lightskyblue;
+}
